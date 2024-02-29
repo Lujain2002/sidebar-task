@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7F7F8;
+    font-family: Be Vietnam Pro;
+
+}
+
+a {
+    font-family: Be Vietnam Pro;
+    color: #262626;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    position: sticky;
+    z-index: 9;
+    top: 0;
+    background: var(--white-97, #F7F7F8);
+}
+
+.container {
+    width: calc(100% - 120px);
+    padding: 10px 0;
+    margin: auto;
+
+
+
+}
+
+header .container {
+    border-bottom: 1px solid var(--white-95, #F1F1F3);
+
+
+
+}
+
+.row {
+    display: flex;
+    flex-grow: wrap;
+    justify-content:end;
+}
+
+.show{
+    background-color: coral;
+    padding: 10px;
+    border-radius: 10px;
+    color:#F1F1F3;
+    border: none;
+    cursor: pointer;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(90, 84, 84, 0.5); 
+    z-index: 9999;
+    display: flex;
+    justify-content: end;
+   
+  }
+  
+  .sidebar {
+    height: 100vh;
+    width:30%;
+    background-color:coral ;
+ 
+   
+  }
+  
+
+.cancel{
+    width:fit-content ;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    
+
+}
+.cancel svg{
+    width:20px;
+}
+
+
+
+
+
